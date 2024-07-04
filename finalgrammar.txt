@@ -1,0 +1,40 @@
+M' -> M
+
+M -> void main ( ARGS ) { S }
+
+ARGS -> args
+ARGS -> #
+
+S -> D ; S
+S -> A ; S
+S -> IF S
+S -> F S
+S -> #
+
+D -> Y id = E 
+
+Y -> char
+Y -> int
+Y -> string
+
+A -> id = E 
+
+IF -> if ( C ) { S } else { S }
+
+F -> for ( D ; C ; A ) { S }
+
+C -> T > T
+C -> T < T
+C -> T == T
+
+E -> T + T
+E -> T - T
+E -> T * T
+E -> T ^ id
+E -> T
+
+T -> id
+T -> char_l
+T -> str_l
+T -> int_l
+T -> ( E )
