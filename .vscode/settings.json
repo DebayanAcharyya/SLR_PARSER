@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.cpp": "cpp",
+        "iomanip": "cpp",
+        "sstream": "cpp",
+        "queue": "cpp",
+        "vector": "cpp",
+        "string": "cpp"
+    }
+}
