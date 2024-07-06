@@ -42,15 +42,6 @@ The program expects the following command-line arguments:
 
 ## File Descriptions
 
-### `slr_parser2.cpp`
-
-Contains the implementation of the SLR parser, which includes:
-
-- Parsing table construction
-- FIRST AND FOLLOW set computation
-- Item-set construction
-- Bottom-up parsing algorithm (Parsing Table and Parsing process included)
-
 ### `lexer3.cpp`
 
 Contains the implementation of the lexical analyzer (lexer), which includes:
@@ -59,6 +50,15 @@ Contains the implementation of the lexical analyzer (lexer), which includes:
 - Symbol table maintenance
 - Character and integer literal recognition
 - Keyword and identifier recognition
+
+### `slr_parser2.cpp`
+
+Contains the implementation of the SLR parser, which includes:
+
+- Parsing table construction
+- FIRST AND FOLLOW set computation
+- Item-set construction
+- Bottom-up parsing algorithm (Parsing Table and Parsing process included)
 
 ### `finalgrammar.txt`
 Contains the CFG for this parser
