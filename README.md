@@ -67,7 +67,7 @@ Contains the CFG for this parser
 Contains the program to be parsed
 
 ### `token.h`
-Contains Token type and Token details
+Header file containing Token types and Token structure details
 
 
 
